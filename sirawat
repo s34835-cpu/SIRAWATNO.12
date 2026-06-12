@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ Sirawat">
+    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ SIRAWAT">
     <title>ความภาคภูมิใจของ SIRAWAT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>สวัสดี! ผมคือ SIRAWAT</h1>
         <p>นี่คือผลงานและความภาคภูมิใจของผม</p>
@@ -15,33 +16,38 @@
 
     <section id="about">
         <h2>เกี่ยวกับผม</h2>
-        <p>ผมเป็นนักเรียนที่สนใจทางด้านวิศวกรรมศาสตร์และการประดิษฐ์สิ่งต่างๆ</p>
+        <p>ผมเป็นนักเรียนที่มีความหลงใหลในการสร้างสรรค์สิ่งใหม่ๆ ผมภูมิใจในผลงานและทักษะที่ผมพัฒนามาอย่างต่อเนื่อง</p>
     </section>
 
     <section id="projects">
         <h2>ผลงานของผม</h2>
         <div class="project">
             <h3>เว็บไซต์ Portfolio</h3>
-           <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ผมสร้างขึ้นเพื่อแสดงความสามารถของผม</p>
-         </div>
+            <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ผมสร้างขึ้นเพื่อแสดงความสามารถของผม</p>
+        </div>
+        <div class="project">
+            <h3>แอปพลิเคชันจัดการงาน</h3>
+           <p>แอปพลิเคชันที่ช่วยให้ผู้ใช้งานจัดการงานได้อย่างมีประสิทธิภาพ</p>
+        </div>
     </section>
 
-<section id="skills">
-    <h2>ทักษะของผม</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, Django</li>
-        <li>Git และ GitHub</li>
-        <li>การออกแบบ UI/UX</li>
-    </ul>
-</section>
+    <!-- ส่วนแสดงทักษะ -->
+    <section id="skills">
+        <h2>ทักษะของผม</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Django</li>
+            <li>Git และ GitHub</li>
+            <li>การออกแบบ UI/UX</li>
+        </ul>
+    </section>
 
-<footer>
-    <p>ติดต่อผมได้ที่: <a 
-href="s34835@banbung.ac.th">s34835@banbung.ac.th</a></p>
-    <p>&copy; <span id="year"></span> SIRAWAT. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>ติดต่อผมได้ที่: <a 
+  href="s34835@banbung.ac.th">s34835@banbung.ac.th</a></p>
+        <p>&copy; <span id="year"></span> SIRAWAT. All rights reserved.</p>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
